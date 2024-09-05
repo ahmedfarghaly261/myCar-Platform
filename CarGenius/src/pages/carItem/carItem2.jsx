@@ -14,10 +14,10 @@ import "aos/dist/aos.css"
 
 
 function CarItem2() {
-    useEffect(()=>{
-        Aos.init({duration:2000});
-      },[])
-      
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
+
     return (
         <div>
             <br />
@@ -25,9 +25,9 @@ function CarItem2() {
                 <h2 className='text-center text-4xl my-20'>
                     <b>Latest Cars </b>
                     <div className="text-[#4f46e5] text-5xl">  <b>ـــــــــــــــــــــــ</b> </div>
-                    
+
                 </h2>
-               
+
 
 
                 <Carousel>

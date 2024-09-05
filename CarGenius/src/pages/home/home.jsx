@@ -40,7 +40,7 @@ function Home() {
             </Headroom>
 
 
-            <div className="">
+            <div className="w-">
                 <HeroSec />
                 <br />
             </div>
@@ -88,10 +88,10 @@ function Home() {
             <div className="" data-aos="zoom-in-up">
                 <Numbers_sec />
             </div>
-
+{/* 
             <div className="" data-aos="zoom-out-down">
                 <Reviews_sec />
-            </div>
+            </div> */}
 
 
 
