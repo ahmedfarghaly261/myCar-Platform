@@ -73,9 +73,9 @@ function Home() {
                 }
             </div> 
 
-            {/* <div className="">
+              <div className="">
                 <CarItem />
-            </div> */}....
+            </div> .... 
 
             <div className="">
                 <Car_section />
@@ -89,10 +89,10 @@ function Home() {
             {/* <div className="" data-aos="zoom-in-up">
                 <Numbers_sec />
             </div> */}
-{/* 
-            <div className="" data-aos="zoom-out-down">
+ 
+            {/* <div className="" data-aos="zoom-out-down">
                 <Reviews_sec />
-            </div> */}
+            </div>  */}
 
 
 
