@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react'
 import { FaCarSide } from "react-icons/fa";
 import Search from '../Search'
+import slider51 from "../../../public/slider51.png"
 import Aos from 'aos';
 import "aos/dist/aos.css"
 
@@ -21,7 +22,7 @@ function HeroSec() {
           <h2 className='text-center lg:text-[200px] xl:text-[70px]  '><b >Find Your Dream Car  </b> </h2>
           <h2 className='text-center text-xl'> Find cars for sale and for rent near you</h2> <br />
           {/* <Search/> */}
-          <img data-aos="fade-left" className='mt--10' src="../../../public/slider51.png" alt="" width={1700} height={250} />
+          <img data-aos="fade-left" className='mt--10' src={slider51} alt="" width={1700} height={250} />
         </div>
       </div>
 

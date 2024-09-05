@@ -3,6 +3,7 @@ import { SignInButton, SignOutButton, UserButton, useUser } from '@clerk/clerk-r
 import { FontSizeIcon } from '@radix-ui/react-icons';
 import { Link } from 'react-router-dom';
 import { IoIosHome } from "react-icons/io";
+import logo from"../../../public/logo.png"
 import {
     Sheet,
     SheetContent,
@@ -23,7 +24,7 @@ function Header() {
 
         <div>
             <div className="flex justify-between items-center shadow-sm px-7 p-5 bg-[#eef1fb] ">
-                <img src="../../../public/logo.png" alt="" width={100} height={50} />
+                <img src={logo} alt="" width={100} height={50} />
 
                 <nav class="">
                     <div class="container mx-auto flex justify-between items-center">
