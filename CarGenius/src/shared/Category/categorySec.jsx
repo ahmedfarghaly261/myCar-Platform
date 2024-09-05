@@ -21,7 +21,7 @@ function CategorySec() {
                     {data.Category.map((Category, index) => (
 
                         <Link to={"Cars_List"}>
-                            <div data-aos="fade-right" className="mt-10 font-bold border rounded-xl flex flex-col p-5 items-center w-[150px] hover:scale-105 shadow-sm translate-x-1 cursor-pointer">
+                            <div data-aos="fade-right" className="mt-10 font-bold border rounded-xl flex flex-col p-5 items-center hover:scale-105 shadow-sm translate-x-1 cursor-pointer">
                                 <img src={Category.icon} alt="" width={50} />
                                 <h2>{Category.name}</h2>
                             </div>
