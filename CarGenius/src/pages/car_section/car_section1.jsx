@@ -8,54 +8,39 @@ function Car_section() {
     }, [])
 
     return (
-        <div>
-            <div className="hidden lg:block">
-                <section>
-                    <div className="mx-auto max-w-screen-xl px-4  lg:px-8 py-16">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:h-screen">
+        <>
+            <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center mx-10">
+                <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+                    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+                        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit
+                        </h2>
 
-                            {/* Image Section */}
-                            <div className="relative z-10 lg:py-1">
-                                <div className="relative h-64 sm:h-80 lg:h-full">
-                                    <img
-                                        data-aos="fade-up-right"
-                                        alt=""
-                                        src="https://i.ibb.co/jRbb17m/sec-img.jpg"
-                                        className="absolute inset-0 h-full w-full object-cover rounded-lg"
-                                    />
-                                </div>
-                            </div>
+                        <p className="hidden text-gray-500 md:mt-4 md:block">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam
+                            sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat
+                            quisque ut interdum tincidunt duis.
+                        </p>
 
-                            {/* Content Section */}
-                            <div className="relative flex items-center bg-gray-100" data-aos="fade-up-left">
-                                <span className="hidden lg:block lg:absolute lg:inset-y-0 lg:-start-16 lg:w-16 lg:bg-gray-100"></span>
-
-                                <div className="p-8 sm:p-12 lg:p-24">
-                                    <h2 className="text-xl font-bold sm:text-2xl md:text-3xl">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, debitis.
-                                    </h2>
-
-                                    <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-600">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae! Quidem est esse numquam odio
-                                        deleniti, beatae, magni dolores provident quaerat totam eos, aperiam architecto eius quis quibusdam fugiat
-                                        dicta.
-                                    </p>
-
-                                    <a
-                                        href="#"
-                                        className="mt-8 inline-block rounded border border-indigo-600 bg-indigo-600 px-10 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
-                                    >
-                                        Get in Touch
-                                    </a>
-                                </div>
-                            </div>
+                        <div className="mt-4 md:mt-8">
+                            <a
+                                href="#"
+                                className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                            >
+                                Get Started Today
+                            </a>
                         </div>
                     </div>
-                </section>
+                </div>
 
+                <img
+                    alt=""
+                      src="https://i.ibb.co/jRbb17m/sec-img.jpg"
+                    className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+                />
+            </section>
+        </>
 
-            </div>
-        </div>
     )
 }
 

@@ -22,18 +22,17 @@ function CarItem() {
     return (
         <div>
             <br />
-            <div className="mx-24 ">
+            <div className=" mx-12  ">
                 <h2 className='text-center text-4xl my-20'>
                     <b>The Most Searched Cars </b>
                     <div className="text-[#4f46e5] text-xl">  <b>ـــــــــــــــــــــــ</b> </div>
-
                 </h2>
 
                 <Carousel>
                     <CarouselContent >
                         {cardData.map((car, index) => (
                             <CarouselItem data-aos="fade-up"
-                                className=" md:basis-1/2 lg:basis-1/4">
+                                className="sm:1/0 md:basis-1/2 lg:basis-1/4">
                                 <Car_cards car={car} key={index} />
                             </CarouselItem>
                         ))}
@@ -45,7 +44,8 @@ function CarItem() {
 
             </div>
 
-            <div className=""  > <Link to={"/Cars_List"}> <Button className="text-center mx-40 my-10 p-6 text-2xl  lg:w-[400px] xl:w-[500px] "> see more car </Button> </Link>
+            <div className=" my-9 flex items-center justify-center"  > 
+                <Link to={"/Cars_List"}> <Button className="w- text-2xl p-7 "> see more car </Button> </Link>
             </div>
 
 

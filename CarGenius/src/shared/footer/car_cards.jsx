@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Car_cards({ car }) {
     return (
         <div>
-            <div className=" hover:scale-105 shadow-sm" >
+            <div className=" hover:scale-105 shadow-sm container" >
                 <h2 className='absolute m-2 bg-green-800 text-white p-2 rounded-lg'>NEW</h2>
                 <img src={car?.img} alt="" width={400} height={250}
                     className='rounded-t-xl border'

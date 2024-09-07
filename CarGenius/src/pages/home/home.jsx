@@ -44,14 +44,14 @@ function Home() {
                 <HeroSec />
                 <br />
             </div>
-            
+
             <div className="">
                 <CategorySec />
             </div>
 
             {/* if sign in  */}
- 
-             <div className="">
+
+            <div className="">
                 <br />
                 <br />
                 <h1 className='text-5xl font-bold text-center my-5'>sell your car
@@ -71,13 +71,13 @@ function Home() {
                         </div> </div>
 
                 }
-            </div> 
-
-              <div className="">
-                <CarItem />
-            </div> .... 
+            </div>
 
             <div className="">
+                <CarItem />
+            </div> ....
+
+            <div className="" data-aos="fade-up">
                 <Car_section />
             </div>
             <div className="">
@@ -89,7 +89,7 @@ function Home() {
             {/* <div className="" data-aos="zoom-in-up">
                 <Numbers_sec />
             </div> */}
- 
+
             {/* <div className="" data-aos="zoom-out-down">
                 <Reviews_sec />
             </div>  */}
