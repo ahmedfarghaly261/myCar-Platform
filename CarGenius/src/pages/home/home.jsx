@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button'
-// import Cars_card from '@/shared/cars_card1/cars_card'
 import CategorySec from '@/shared/Category/categorySec'
 import Footer from '@/shared/footer/footer'
 import Header from '@/shared/header/header'
@@ -39,7 +38,6 @@ function Home() {
                 </div>
             </Headroom>
 
-
             <div className="w-">
                 <HeroSec />
                 <br />
@@ -63,6 +61,8 @@ function Home() {
                         <Sell_cards />
 
                     </div>
+
+                    // if not sign in
                     :
                     <div className=" text-center my-14" >
                         <div className="my-10">
@@ -93,8 +93,6 @@ function Home() {
             {/* <div className="" data-aos="zoom-out-down">
                 <Reviews_sec />
             </div>  */}
-
-
 
 
             <div className="my-10">
