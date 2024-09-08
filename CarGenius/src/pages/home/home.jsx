@@ -67,7 +67,9 @@ function Home() {
                     <div className=" text-center my-14" >
                         <div className="my-10">
                             <h2 className='text-4xl m-10'> to sell car .. you must sign in </h2>
-                            <Button className="text-xl w-[150px] hover:scale-110"> Sign In </Button>
+                                    <SignInButton>
+                                        <Button className="text-xl w-[150px] hover:scale-110"> Sign In </Button>
+                                    </SignInButton>
                         </div> </div>
 
                 }
