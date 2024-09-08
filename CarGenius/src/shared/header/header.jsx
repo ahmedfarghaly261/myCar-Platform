@@ -39,10 +39,11 @@ function Header() {
                                         {
                                             isSignedIn ?
                                                 <div className=" items-center gap-10 ">
-                                                    <UserButton className="text-4xl" />
+                                                
                                                     
                                                 
                                                     <div className="">
+                                                  
                                                         <br />
                                                     <SheetTitle className="flex items-center gap-2 border-s-[3px]  border-gray-300   border-2 px-4 py-3 text-gray-500 hover:border-gray-100 hover:bg-gray-50 hover:text-gray-700"> <Link to={"/Contact"} > <span className='flex items-center justify-center gap-4 '>     <UserButton className="text-4xl" />   Profile  </span> </Link> </SheetTitle>
                                                     </div>
