@@ -17,7 +17,8 @@ function Car_cards({ car }) {
                 <h2 className='font-bold text-2xl mb-2 p-5 uppercase'>{car?.name}</h2>
                 <div className="p-5 border">
                     <div className="grid grid-cols-3 mt-5 ">
-                        <div className="text-3xl">
+                        <div className="text-4xl text-black py-4 px-4">
+
                             <BsFuelPumpFill />
                         </div>
                         <div className="items-center">

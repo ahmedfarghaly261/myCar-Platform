@@ -10,12 +10,11 @@ function Footer() {
                         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                             <div>
                                 <div className="flex justify-center text-teal-600 sm:justify-start">
-                                    <img className='bg-white rounded-full ' src="../../../public/logo.png" width={150} alt="" />
+                                    <img className='bg-white rounded-md ' src="https://i.ibb.co/VwjNngm/2New.png" width={150} alt="" />
                                 </div>
 
                                 <p className="mt-6 max-w-md text-center leading-relaxed text-white sm:max-w-xs sm:text-left">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                                    cum itaque neque.
+                                We Value Our Clients And Want Them To Have A Nice Experience
                                 </p>
 
                                 <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -158,16 +157,7 @@ function Footer() {
                                                 className="group flex justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
                                                 href="#"
                                             >
-                                                {/* <span className="text-white transition hover:text-[#0d9488]" >
-                                                    Live Chat
-                                                </span> */}
-
-                                                {/* <span className="relative flex size-2">
-                                                    <span
-                                                        className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75"
-                                                    ></span>
-                                                    <span className="relative inline-flex size-2 rounded-full bg-teal-500"></span>
-                                                </span> */}
+                               
                                             </a>
                                         </li>
                                     </ul>

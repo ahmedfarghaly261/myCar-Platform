@@ -40,11 +40,10 @@ function    Card_section2() {
                             </span>
 
                             <div>
-                                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                                <h2 className="text-lg font-bold">Special Financing Offers.</h2>
 
                                 <p className="mt-1 text-sm text-black">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab
-                                    possimus quisquam reiciendis tempora animi! Quaerat, saepe?
+                                Our stress-free finance department that can find financial solutions to save you money.
                                 </p>
                             </div>
                         </div>
@@ -72,11 +71,10 @@ function    Card_section2() {
                             </span>
 
                             <div>
-                                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                                <h2 className="text-lg font-bold">Trusted Car Dealership</h2>
 
                                 <p className="mt-1 text-sm text-black">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab
-                                    possimus quisquam reiciendis tempora animi! Quaerat, saepe?
+                                Our stress-free finance department that can find financial solutions to save you money
                                 </p>
                             </div>
                         </div>
@@ -104,11 +102,10 @@ function    Card_section2() {
                             </span>
 
                             <div>
-                                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                                <h2 className="text-lg font-bold">Transparent Pricing</h2>
 
                                 <p className="mt-1 text-sm text-gray-30">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab
-                                    possimus quisquam reiciendis tempora animi! Quaerat, saepe?
+                                Our stress-free finance department that can find financial solutions to save you money
                                 </p>
                             </div>
                         </div>
@@ -136,11 +133,10 @@ function    Card_section2() {
                             </span>
 
                             <div>
-                                <h2 className="text-lg font-bold">Lorem, ipsum dolor.</h2>
+                                <h2 className="text-lg font-bold">Expert Car Service</h2>
 
                                 <p className="mt-1 text-sm text-gray-30">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab
-                                    possimus quisquam reiciendis tempora animi! Quaerat, saepe?
+                                Our stress-free finance department that can find financial solutions to save you money.
                                 </p>
                             </div>
                         </div>

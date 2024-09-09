@@ -22,11 +22,11 @@ function CarItem() {
     return (
         <div>
             <br />
-            <div className=" mx-12  ">
+            <div className=" mx-16  ">
                 <h2 className='text-center text-4xl my-20'>
                     <b>The Most Searched Cars </b>
-                    <div className="text-[#4f46e5] text-xl">  <b>ـــــــــــــــــــــــ</b> </div>
-                </h2>
+                    <div className="text-[#4f46e5] text-5xl text-center" >  <b>ـــــــــــــــــ</b> </div>
+                    </h2>
 
                 <Carousel>
                     <CarouselContent >
@@ -45,7 +45,7 @@ function CarItem() {
             </div>
 
             <div className=" my-9 flex items-center justify-center"  > 
-                <Link to={"/Cars_List"}> <Button className="w- text-2xl p-7 "> see more car </Button> </Link>
+                <Link to={"/Cars_List"}> <Button className="w- text-2xl p-7  hover:scale-105"> see more car </Button> </Link>
             </div>
 
 

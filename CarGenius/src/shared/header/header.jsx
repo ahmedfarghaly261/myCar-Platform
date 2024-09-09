@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { IoIosHome } from "react-icons/io";
 import { FcAbout } from "react-icons/fc";
 import { FaRegMessage } from "react-icons/fa6";
-
+import { IoHome } from "react-icons/io5";
 import {
     Sheet,
     SheetContent,
@@ -25,7 +25,7 @@ function Header() {
 
         <div>
             <div className="flex justify-between items-center shadow-sm px-7 p-5 bg-[#eef1fb] ">
-                <img src="https://i.ibb.co/NnHQmsB/logo.png" alt="" width={100} height={50} />
+                <img src="https://i.ibb.co/VwjNngm/2New.png" alt="" width={180} height={50} />
 
                 <nav class="">
                     <div class="container mx-auto flex justify-between items-center">
@@ -73,11 +73,29 @@ function Header() {
                             </Sheet>
                         </div>
 
-                        <ul id="nav-menu" class="hidden lg:flex space-x-4 gap-10 text-xl">
+                        <ul id="nav-menu" className="hidden lg:flex space-x-4 gap-7 text-xl">
 
-                            <li><a href="#" class="text-black hover:text-gray-400"> <Link to={"/"}>Home </Link>  </a></li>
-                            <li><a href="#" class="text-black hover:text-gray-400">About</a></li>
-                            <li><a href="#" class="text-black hover:text-gray-400"> <Link to={"/Contact"}> Contact </Link>    </a></li>
+
+                            <li>
+                                <a className="relative   group  py-1.5 px-2.5 text-gray-600 font-bold hover:text-indigo-600 ">
+                           
+                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full group-hover:transition-all"></span >  <Link to={"/"}  >   Home </Link>
+                                </a>
+                            </li >
+                            <li>
+                                <a className=" relative   group  py-1.5 px-2.5 text-gray-600 font-bold hover:text-indigo-600">
+                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full group-hover:transition-all"></span>  <Link to={"/"}>About </Link>
+                                </a>
+                            </li >
+                            <li>
+                                <a className=" relative   group  py-1.5 px-2.5 text-gray-600 font-bold hover:text-indigo-600">
+                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full group-hover:transition-all"></span>  <Link to={"/Contact"}> Contact </Link>
+                                </a>
+                            </li >
+
+                            {/* <li><a href="#" class="text-black hover:text-gray-400"> <Link to={"/"}>Home </Link>  </a></li>
+                            <li><a href="#" class="text-black hover:text-gray-400">About </a> </li>
+                            <li><a href="#" class="text-black hover:text-gray-400"> <Link to={"/Contact"}> Contact </Link>    </a></li> */}
 
                             {
                                 isSignedIn ?

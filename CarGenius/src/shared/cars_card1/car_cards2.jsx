@@ -10,7 +10,7 @@ function Car_cards2({ car2 }) {
         <div>
             <div className=" hover:scale-105 shadow-sm" >
                 <h2 className='absolute m-2 bg-green-800 text-white p-2 rounded-lg'>NEW</h2>
-                <img src={car2?.img} alt="" width={400} height={250}
+                <img src={car2?.img} alt="" width={400} 
                     className='rounded-t-xl border'
                 />
         

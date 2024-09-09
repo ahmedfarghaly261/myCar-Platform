@@ -22,7 +22,7 @@ const cardData = [
         name: " Gilly Colray",
         model: "2024",
         img: "https://i.ibb.co/t4RXz0w/2023-2-750x455.webp",
-        speed: "240 ",
+        speed: "240Kh ",
         gear: " auto",
         price: "1800000 L.E"
     },
@@ -32,7 +32,7 @@ const cardData = [
         name: "Kia Forte ",
         model: "2024",
         img: "https://i.ibb.co/m0bSM6L/01-2024-kia-forte-angular-front-zd.jpg ",
-        speed: " 240",
+        speed: " 240Kh",
         gear: " auto",
         price: "1000000 L.E"
     },
@@ -41,7 +41,7 @@ const cardData = [
         name: "Kia Soul ",
         model: "2024",
         img: "https://i.ibb.co/K59QBR9/01-2024-kia-soul-angular-front-zd.jpg",
-        speed: "200 ",
+        speed: "200Kh ",
         gear: "auto ",
         price: "1000000 L.E"
     },
@@ -50,7 +50,7 @@ const cardData = [
         name: " Hyundai Tucson  ",
         model: "2024",
         img: "https://i.ibb.co/rMDXqJ8/images-4.jpg",
-        speed: " 240",
+        speed: "240Kh",
         gear: "auto ",
         price: "2000000 L.E"
     },

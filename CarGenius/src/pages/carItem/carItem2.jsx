@@ -21,7 +21,7 @@ function CarItem2() {
     return (
         <div>
             <br />
-            <div className="mx-24">
+            <div className="mx-16">
                 <h2 className='text-center text-4xl my-20'>
                     <b>Latest Cars </b>
                     <div className="text-[#4f46e5] text-5xl">  <b>ـــــــــــــــــــــــ</b> </div>
