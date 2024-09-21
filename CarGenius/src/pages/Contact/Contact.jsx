@@ -19,10 +19,10 @@ function Contact() {
                         </aside>
 
                         <main
-                            className="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
+                            className="flex items-center justify-center px-8 py-8 sm:px-4 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
                         >
                             <div className="max-w-xl lg:max-w-3xl">
-                                {/* <img src="../../../" alt="" /> */}
+                            
 
                                 <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
                                     Welcome to CarGenius 🚗
@@ -80,7 +80,7 @@ function Contact() {
 
                                             <textarea
                                                 id="OrderNotes"
-                                                className="mt-2 w-[600px] h-[200px] p-5 rounded-lg border-gray-200 align-top shadow-sm sm:text-sm"
+                                                className="mt-2 lg:w-[600px] h-[200px]  p-5 rounded-lg border-gray-200 align-top shadow-sm sm:text-sm"
                                                 rows="4"
                                                 placeholder="Enter any additional order notes..."
                                             ></textarea>
@@ -91,14 +91,7 @@ function Contact() {
 
                                     </div>
 
-                                    <div className="col-span-6">
-                                        <p className="text-sm text-gray-500">
-                                            By creating an account, you agree to our
-                                            <a href="#" className="text-gray-700 underline"> terms and conditions </a>
-                                            and
-                                            <a href="#" className="text-gray-700 underline">privacy policy</a>.
-                                        </p>
-                                    </div>
+                              
 
                                     <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
                                         <button

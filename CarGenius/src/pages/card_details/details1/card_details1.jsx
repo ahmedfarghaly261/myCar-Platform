@@ -17,7 +17,7 @@ function Card_details1() {
                 <Header />
             </div>
             <div className="">
-                <div className=" border p-10 px-20 w-[500px] ">
+                <div className=" border p-10 px-20  ">
                     <h1 className='text-4xl font-bold' >BMW X6</h1>
 
                 </div>

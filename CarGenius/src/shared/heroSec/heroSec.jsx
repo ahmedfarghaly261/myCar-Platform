@@ -14,7 +14,6 @@ function HeroSec() {
   
   return (
     <div>
-      {/* <br /> */}
       <div  className="">
         <div className=" flex flex-col items-center p-20 py-30 gap-6 h-[700px] w-full bg-[#eef1fb]  " >
           <h2 data-aos="fade-down" className='text-center text-4xl text-[#4f46e5] grid grid- '><FaCarSide />  <b>welcome in CarGenius <span className='flex text-end'> <center>     </center> </span>  </b> </h2>
