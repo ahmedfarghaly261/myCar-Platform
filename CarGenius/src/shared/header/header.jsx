@@ -57,7 +57,7 @@ function Header() {
                                             </Link>
                                         </SheetTitle>
                                         <SheetTitle className="flex items-center gap-2 border-s-[3px]  border-2 px-4 py-3 text-gray-500 hover:border-gray-100 hover:bg-gray-50 hover:text-gray-700">
-                                            <Link  >
+                                            <Link to={"/about_us"} >
                                                 <span className='flex items-center justify-center'><FcAbout className='m-2' /> About </span>
                                             </Link>
                                         </SheetTitle>
@@ -84,7 +84,7 @@ function Header() {
                             </li >
                             <li>
                                 <a className=" relative   group  py-1.5 px-2.5 text-gray-600 font-bold hover:text-indigo-600">
-                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full group-hover:transition-all"></span>  <Link to={"/"}>About </Link>
+                                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full group-hover:transition-all"></span>  <Link to={"/about_us"}>About </Link>
                                 </a>
                             </li >
                             <li>
