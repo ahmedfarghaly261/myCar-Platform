@@ -1,5 +1,6 @@
 import Header from '@/shared/header/header'
 import React from 'react'
+import { FaPhone, FaEnvelope, FaMapLocation, FaClock } from 'react-icons/fa6'
 
 function Contact() {
     return (
@@ -7,107 +8,164 @@ function Contact() {
             <div className="">
                 <Header />
             </div>
-            <div className="">
-                <section className="bg-[#eef1fb]">
-                    <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
-                        <aside className="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6">
-                            <img
-                                alt=""
-                                src="../../../public/logo.png"
-                                className="absolute inset-0 h-full w-full object-cover bg-white rounded-x2l border"
-                            />
-                        </aside>
+            
+            <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+                {/* Hero Section */}
+                <section className="bg-gradient-to-r from-indigo-600 to-indigo-700 text-white py-12 md:py-16">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                        <h1 className="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h1>
+                        <p className="text-lg text-indigo-100">We'd love to hear from you. Let's get in conversation.</p>
+                    </div>
+                </section>
 
-                        <main
-                            className="flex items-center justify-center px-8 py-8 sm:px-4 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
-                        >
-                            <div className="max-w-xl lg:max-w-3xl">
-                            
+                {/* Contact Info Cards */}
+                <section className="py-12 md:py-16">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                            {/* Phone */}
+                            <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 text-center hover:shadow-xl transition-shadow">
+                                <div className="text-indigo-600 text-4xl mb-4 flex justify-center">
+                                    <FaPhone />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
+                                <p className="text-gray-600">+20 (100) 123-4567</p>
+                            </div>
 
-                                <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-                                    Welcome to CarGenius 🚗
-                                </h1>
-                                <h3 className='text-2xl'> how we can help you </h3>
+                            {/* Email */}
+                            <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 text-center hover:shadow-xl transition-shadow">
+                                <div className="text-indigo-600 text-4xl mb-4 flex justify-center">
+                                    <FaEnvelope />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
+                                <p className="text-gray-600">hello@cargenius.com</p>
+                            </div>
 
-                                <p className="mt-4 leading-relaxed text-gray-500">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-                                    quibusdam aperiam voluptatum.
+                            {/* Location */}
+                            <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 text-center hover:shadow-xl transition-shadow">
+                                <div className="text-indigo-600 text-4xl mb-4 flex justify-center">
+                                    <FaMapLocation />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Location</h3>
+                                <p className="text-gray-600">Cairo, Egypt</p>
+                            </div>
+
+                            {/* Hours */}
+                            <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 text-center hover:shadow-xl transition-shadow">
+                                <div className="text-indigo-600 text-4xl mb-4 flex justify-center">
+                                    <FaClock />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Hours</h3>
+                                <p className="text-gray-600">9 AM - 6 PM, Daily</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Main Contact Section */}
+                <section className="py-12 md:py-16">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                            {/* Left Side - Image */}
+                            <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-100">
+                                <img
+                                    alt="CarGenius Logo"
+                                    src="../../../public/logo.png"
+                                    className="w-full h-96 object-cover bg-white"
+                                />
+                            </div>
+
+                            {/* Right Side - Form */}
+                            <div>
+                                <h2 className="text-4xl font-bold text-gray-900 mb-4">Welcome to CarGenius 🚗</h2>
+                                <p className="text-xl text-indigo-600 font-semibold mb-4">How we can help you</p>
+                                <p className="text-gray-600 text-lg mb-8">
+                                    Have questions about our vehicles or services? We're here to help! Fill out the form below and our team will get back to you shortly.
                                 </p>
 
-                                <form action="#" className="mt-8 grid grid-cols-6 gap-6">
-                                    <div className="col-span-6 sm:col-span-3">
-                                        <label htmlFor="FirstName" className="block text-sm font-medium text-gray-700">
-                                            First Name
-                                        </label>
-
-                                        <input
-                                            type="text"
-                                            id="FirstName"
-                                            name="first_name"
-                                            className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
-                                        />
+                                <form className="space-y-6">
+                                    {/* Name Row */}
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                        <div>
+                                            <label htmlFor="FirstName" className="block text-sm font-semibold text-gray-900 mb-2">
+                                                First Name
+                                            </label>
+                                            <input
+                                                type="text"
+                                                id="FirstName"
+                                                name="first_name"
+                                                placeholder="John"
+                                                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="LastName" className="block text-sm font-semibold text-gray-900 mb-2">
+                                                Last Name
+                                            </label>
+                                            <input
+                                                type="text"
+                                                id="LastName"
+                                                name="last_name"
+                                                placeholder="Doe"
+                                                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+                                            />
+                                        </div>
                                     </div>
 
-                                    <div className="col-span-6 sm:col-span-3">
-                                        <label htmlFor="LastName" className="block text-sm font-medium text-gray-700">
-                                            Last Name
+                                    {/* Email */}
+                                    <div>
+                                        <label htmlFor="Email" className="block text-sm font-semibold text-gray-900 mb-2">
+                                            Email Address
                                         </label>
-
-                                        <input
-                                            type="text"
-                                            id="LastName"
-                                            name="last_name"
-                                            className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
-                                        />
-                                    </div>
-
-                                    <div className="col-span-6">
-                                        <label htmlFor="Email" className="block text-sm font-medium text-gray-700"> Email </label>
-
                                         <input
                                             type="email"
                                             id="Email"
                                             name="email"
-                                            className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                                            placeholder="john@example.com"
+                                            className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
                                         />
                                     </div>
 
-
-
-                                    <div className="col-span-6 sm:col-span-3">
-                                        <div>
-                                            <label htmlFor="OrderNotes" className="block text-sm font-medium text-gray-700"> message Block </label>
-
-                                            <textarea
-                                                id="OrderNotes"
-                                                className="mt-2 lg:w-[600px] h-[200px]  p-5 rounded-lg border-gray-200 align-top shadow-sm sm:text-sm"
-                                                rows="4"
-                                                placeholder="Enter any additional order notes..."
-                                            ></textarea>
-                                        </div>
+                                    {/* Subject */}
+                                    <div>
+                                        <label htmlFor="Subject" className="block text-sm font-semibold text-gray-900 mb-2">
+                                            Subject
+                                        </label>
+                                        <input
+                                            type="text"
+                                            id="Subject"
+                                            name="subject"
+                                            placeholder="How can we help?"
+                                            className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+                                        />
                                     </div>
 
-                                    <div className="col-span-6">
-
+                                    {/* Message */}
+                                    <div>
+                                        <label htmlFor="Message" className="block text-sm font-semibold text-gray-900 mb-2">
+                                            Message
+                                        </label>
+                                        <textarea
+                                            id="Message"
+                                            name="message"
+                                            placeholder="Tell us more about your inquiry..."
+                                            rows="5"
+                                            className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent resize-none"
+                                        ></textarea>
                                     </div>
 
-                              
-
-                                    <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                                        <button
-                                            className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
-                                        >
-                                            Send
-                                        </button>
-
-
-                                    </div>
+                                    {/* Submit Button */}
+                                    <button
+                                        type="submit"
+                                        className="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2"
+                                    >
+                                        Send Message
+                                    </button>
                                 </form>
                             </div>
-                        </main>
+                        </div>
                     </div>
                 </section>
-            </div>
+            </main>
         </>
     )
 }

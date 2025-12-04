@@ -80,7 +80,7 @@ function Cars_List() {
 </div>
 
 
-
+                            {/* Pagination */}
             <br />
             <div className="">
                 <Pagination>

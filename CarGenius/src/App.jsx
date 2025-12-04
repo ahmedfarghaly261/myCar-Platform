@@ -9,6 +9,7 @@ import Test from './pages/test/test'
 import Card_details1 from './pages/card_details/details1/card_details1'
 import Sell_section from './pages/sell_section/sell_section'
 import Cars_List from './pages/cars_List/Cars_List'
+import Profile from './pages/Profile/Profile'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
         <Route path='/card_details1' element={<Card_details1/>} />
         <Route path='/sell_sec' element={<Sell_section/>} />
         <Route path='/Cars_List' element={<Cars_List/>} />
+        <Route path='/profile' element={<Profile/>} />
       </Routes>
      </BrowserRouter>
 
